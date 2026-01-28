@@ -1,0 +1,14 @@
+t=(1,2,1.1,2.2,"tops",True,[100,200,300],"phython",10,20,30,1,2,3)
+
+print(t)
+print(t.count(1))
+print(t.index(1.1))
+
+for i in t:
+      print(i)
+
+
+print(100 in t)
+print(t[6])
+t[6].append(400)
+print(t)
